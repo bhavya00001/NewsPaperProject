@@ -18,7 +18,10 @@ The Newspaper Automation System is a desktop-based software designed to streamli
 🛠 Tech Stack
 
 Frontend: JavaFX, Scene Builder
+
 Backend: Core Java
+
 Database: MySQL (JDBC for database connectivity)
+
 Tools Used: Eclipse IDE, Scene Builder Workbench
 
