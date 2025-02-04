@@ -1,10 +1,10 @@
 ## NewsPaper Automation System
 
-📌# Overview
+📌 Overview
 
 The Newspaper Automation System is a desktop-based software designed to streamline newspaper agency operations. It helps agencies efficiently manage their inventory, pricing, customer details, billing, and hawker distributions. The application provides a user-friendly interface for CRUD operations and enhances workflow automation, reducing manual effort and errors.
 
-✨# Features
+✨ Features
 
 * Customer Management: Add, update, and delete customer records with ease.
 * Hawker Management: Maintain hawker details, distribution areas, and payment tracking.
@@ -15,7 +15,7 @@ The Newspaper Automation System is a desktop-based software designed to streamli
 * Secure Login System: Authentication to prevent unauthorized access.
 * User-Friendly Interface: Built using JavaFX and Scene Builder for seamless navigation.
 
-🛠# Tech Stack
+🛠 Tech Stack
 
 Frontend: JavaFX, Scene Builder
 Backend: Core Java
