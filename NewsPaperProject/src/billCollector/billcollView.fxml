@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="624.0" prefWidth="546.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="billCollector.billcollViewController">
+   <children>
+      <Label alignment="CENTER" layoutX="123.0" layoutY="14.0" prefHeight="106.0" prefWidth="354.0" text="BILL COLLECTOR">
+         <font>
+            <Font name="Mistral" size="34.0" />
+         </font>
+      </Label>
+      <Label layoutX="69.0" layoutY="137.0" prefHeight="37.0" prefWidth="204.0" text="CUSTOMER MOBILE NO.">
+         <font>
+            <Font name="Mistral" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="75.0" layoutY="248.0" prefHeight="37.0" prefWidth="204.0" text="AMOUNT ( IN RS. )">
+         <font>
+            <Font name="Mistral" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="75.0" layoutY="304.0" prefHeight="37.0" prefWidth="204.0" text="STARTING DATE">
+         <font>
+            <Font name="Mistral" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="75.0" layoutY="361.0" prefHeight="37.0" prefWidth="204.0" text="ENDING DATE">
+         <font>
+            <Font name="Mistral" size="18.0" />
+         </font>
+      </Label>
+      <Button layoutX="196.0" layoutY="433.0" mnemonicParsing="false" onAction="#showPaymentDetails" text="PAYMENT DONE" />
+      <Button layoutX="312.0" layoutY="205.0" mnemonicParsing="false" onAction="#doBillDetails" text="BILL DETAILS" />
+      <ImageView fitHeight="121.0" fitWidth="167.0" layoutX="14.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../Desktop/Logos/NewsPaper%20Logo.png" />
+         </image>
+      </ImageView>
+      <TextField fx:id="txMobile" layoutX="247.0" layoutY="143.0" />
+      <TextField fx:id="txtstartDate" layoutX="247.0" layoutY="310.0" />
+      <TextField layoutX="247.0" layoutY="254.0" onAction="#txtAmount" />
+      <TextField fx:id="txtEndDate" layoutX="247.0" layoutY="367.0" />
+      <Label fx:id="lblOut" layoutX="82.0" layoutY="490.0" prefHeight="37.0" prefWidth="204.0" text="PAYMENT DETAILS.......">
+         <font>
+            <Font name="Mistral" size="14.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
